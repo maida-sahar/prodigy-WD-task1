@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 200vh;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: yellow;
+}
+
+.navbar.scrolled {
+    background-color: #c1eb09; /* Scroll hone par background change */
+}
+
+/* Section Styling */
+#content {
+    padding-top: 60px;
+}
+
+section {
+    height: 100vh;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
